@@ -5,6 +5,13 @@
 *.tfstate
 *.tfstate.*
 
+# terragrunt files
+*.terragrunt-cache
+
+# Terraform dependency lock file. Comment this exclusion out if you intend to use Terragrunt within a group and need to maintain cohesion of Terraform version.
+# More Details can be found here: https://www.terraform.io/docs/language/dependency-lock.html
+*.terraform.lock.hcl
+
 # Crash log files
 crash.log
 
